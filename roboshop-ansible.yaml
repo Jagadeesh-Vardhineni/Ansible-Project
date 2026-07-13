@@ -1,5 +1,5 @@
 - name: create ec2 and r53 records
-  host: all
+  hosts: all
   connection: local
   vars:
     sg_id: sg-06e8a11e6012588b9
@@ -20,4 +20,3 @@
         Envioronment: " {{env}}"
         Name : "{{item}}-{{env}}"
     loop: "{{instances}}"
-    
