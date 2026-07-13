@@ -4,8 +4,8 @@
   vars:
     sg_id: sg-06e8a11e6012588b9
     ami_id: ami-0220d79f3f480ecf5
-  instances:
-  - mongodb
+    instances:
+    - mongodb
 
   
   tasks:
